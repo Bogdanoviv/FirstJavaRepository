@@ -13,11 +13,6 @@ public class parser {
         String url = "https://www.gismeteo.ru/weather-krasnodar-5136/month/";
         Document page = Jsoup.parse(new URL(url),10000);
         return page;
-        System.out.println("0-");
-
-
-
-
     }
     public static void main(String[] args) throws IOException {
         Document page = getPage();
